@@ -1,0 +1,80 @@
+/* ساختار جدید برای آواتار راست */
+.main-container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* بخش محتوای اسکرول شونده (چپ) */
+.content {
+    flex: 1;
+    margin-right: 400px; /* عرض آواتار + فاصله */
+    padding: 0 20px;
+    width: calc(100% - 420px);
+    order: 1; /* در سمت چپ */
+}
+
+/* آواتار ثابت (راست) */
+.avatar {
+    position: fixed;
+    right: 30px;
+    top: 5vh;
+    height: 90vh;
+    width: 400px;
+    order: 2; /* در سمت راست */
+    z-index: 1000;
+    background: var(--background); /* رنگ پس‌زمینه اصلی */
+    border-left: 1px solid var(--border-color);
+    overflow-y: auto;
+}
+
+/* تغییرات برای ریسپانسیو */
+@media (max-width: 992px) {
+    .main-container {
+        flex-direction: column;
+    }
+    
+    .content {
+        margin-right: 0;
+        width: 100%;
+        padding: 0 15px;
+    }
+    
+    .avatar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        border-left: none;
+        border-top: 1px solid var(--border-color);
+    }
+}
+
+/* تصحیح جهت‌گیری برای RTL */
+.avatar__container {
+    direction: rtl;
+    text-align: right;
+}
+
+/* تصحیح تراز لوگو */
+.avatar__logo {
+    justify-content: flex-start;
+}
+
+/* تصحیح تراز دکمه */
+.avatar__btnholder {
+    text-align: center;
+}
+
+/* تصحیح تراز شبکه‌های اجتماعی */
+.avatar__socials {
+    justify-content: center;
+}
+
+/* اگر background-image در CSS باشد */
+.image-background {
+    background-image: url('../img/demo/2560x1440-bg-footer.webp') !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

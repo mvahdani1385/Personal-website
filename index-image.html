@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Page Title -->
+  <title>محمد وحدانی - برنامه‌نویس وب و طراح رابط کاربری</title>
+
+  <!-- Meta Tags -->
+  <meta name="description"
+    content="محمد وحدانی - برنامه‌نویس وب و طراح رابط کاربری متخصص در React, Next.js و توسعه فرانت‌اند">
+  <meta name="keywords" content="محمد وحدانی, برنامه‌نویس وب, توسعه‌دهنده فرانت‌اند, React, Next.js, طراحی UI, وردپرس">
+  <meta name="author" content="محمد وحدانی">
+
+  <!-- Viewport Meta-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- Template Favicon & Icons Start -->
+  <link rel="icon" href="img/favicon/favicon.ico" sizes="any">
+  <link rel="icon" href="img/favicon/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+  <link rel="manifest" href="img/favicon/manifest.webmanifest">
+  <!-- Template Favicon & Icons End -->
+
+  <!-- Facebook Metadata Start -->
+  <meta property="og:image:height" content="1200">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:title" content="محمد وحدانی - برنامه‌نویس وب و طراح رابط کاربری">
+  <meta property="og:description"
+    content="محمد وحدانی - برنامه‌نویس وب و طراح رابط کاربری متخصص در React, Next.js و توسعه فرانت‌اند">
+  <meta property="og:url" content="https://yourdomain.com">
+  <meta property="og:image" content="https://yourdomain.com/img/favicon/og-image.jpg">
+  <!-- Facebook Metadata End -->
+
+  <!-- Template Styles Start -->
+  <link rel="stylesheet" href="css/loaders/loader.css">
+  <link rel="stylesheet" type="text/css" href="css/plugins.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!-- Template Styles End -->
+
+  <!-- Custom Browser Color Start -->
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#dcdce7">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111111">
+  <meta name="msapplication-navbutton-color" content="#111111">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- Custom Browser Color End -->
+
+  <!-- Template Styles End -->
+  <link rel="stylesheet" type="text/css" href="css/custom-rtl-fix.css">
+  <!-- Custom Browser Color Start -->
+</head>
+
+<body>
+
+  <!-- Loader Start -->
+  <div id="loader" class="loader">
+    <div id="loaderContent" class="loader__content">
+      <div class="loader__shadow"></div>
+      <div class="loader__box"></div>
+    </div>
+  </div>
+  <!-- Loader End -->
+
+  <!-- Header Start -->
+  <header id="header" class="header d-flex justify-content-between" style="margin-right: 20%;">
+
+    <!-- Navigation Menu Start -->
+    <div class="header__navigation">
+      <nav id="menu" class="menu">
+        <ul class="menu__list d-flex justify-content-center">
+          <li class="menu__item">
+            <a class="menu__link btn" href="#home">
+              <span class="menu__caption">خانه</span>
+              <i class="ph-bold ph-house-simple"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn" href="#portfolio">
+              <span class="menu__caption">نمونه کارها</span>
+              <i class="ph-bold ph-squares-four"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn" href="#about">
+              <span class="menu__caption">درباره من</span>
+              <i class="ph-bold ph-user"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn" href="#resume">
+              <span class="menu__caption">رزومه</span>
+              <i class="ph-bold ph-article"></i>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link btn" href="#contact">
+              <span class="menu__caption">تماس</span>
+              <i class="ph-bold ph-envelope"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Navigation Menu End -->
+
+    <!-- Header Controls Start -->
+    <div class="header__controls d-flex justify-content-end">
+      <button id="color-switcher" class="color-switcher header__switcher btn" type="button" role="switch"
+        aria-label="حالت روشن/تاریک" aria-checked="true"></button>
+      <a id="notify-trigger" class="header__trigger btn"
+        href="mailto:mohammad.vahdani1385@gmail.com?subject=پیام%20از%20سایت%20شما">
+        <span class="trigger__caption">صحبت کنیم</span>
+        <i class="ph-bold ph-chat-dots"></i>
+      </a>
+    </div>
+    <!-- Header Controls End -->
+
+  </header>
+  <!-- Header End -->
+
+  <!-- Image Background Layer Start -->
+  <div id="imageBackground" class="image-background" data-speed="0.4"></div>
+  <!-- Image Background Layer End -->
+
+  <div style="display: flex; direction: rtl;">
+
+    <!-- Avatar Side Block Start -->
+    <div id="avatar" class="avatar">
+      <div class="avatar__container d-flex flex-column justify-content-lg-between">
+        <!-- image and logo -->
+        <div class="avatar__block">
+          <div class="avatar__logo d-flex align-items-center">
+            <div class="logo__image">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="85px" height="85px" viewBox="0 0 85 85"
+                style="enable-background:new 0 0 85 85;" xml:space="preserve" class="gradient-fill">
+                <style type="text/css">
+                  .gradient-fill {
+                    fill: url(#gradientFill);
+                  }
+                </style>
+                <g>
+                  <linearGradient id="gradientFill" gradientUnits="userSpaceOnUse" x1="9.9604" y1="75.0338" x2="75.0387"
+                    y2="9.9555">
+                    <stop offset="0" style="stop-color:var(--accent)" />
+                    <stop offset="1" style="stop-color:var(--secondary)" />
+                  </linearGradient>
+
+                  <!-- بدنه کامپیوتر -->
+                  <rect class="gradient-fill" x="15" y="15" width="55" height="40" rx="5" ry="5" />
+
+                  <!-- پایه کامپیوتر -->
+                  <rect class="gradient-fill" x="30" y="55" width="25" height="5" rx="2" ry="2" />
+
+                  <!-- پایه پایینی -->
+                  <rect class="gradient-fill" x="35" y="60" width="15" height="3" rx="1.5" ry="1.5" />
+
+                  <!-- صفحه نمایش با کد -->
+                  <g opacity="0.9">
+                    <!-- پس زمینه صفحه -->
+                    <rect x="20" y="20" width="45" height="30" rx="3" ry="3" fill="rgba(0,0,0,0.2)" />
+
+                    <!-- خطوط کد -->
+                    <g fill="white" font-size="3" font-family="monospace">
+                      <!-- خط 1 -->
+                      <rect x="25" y="25" width="25" height="2" rx="1" ry="1" />
+                      <!-- خط 2 -->
+                      <rect x="25" y="29" width="30" height="2" rx="1" ry="1" />
+                      <!-- خط 3 -->
+                      <rect x="25" y="33" width="20" height="2" rx="1" ry="1" />
+                      <!-- خط 4 -->
+                      <rect x="25" y="37" width="35" height="2" rx="1" ry="1" />
+                      <!-- خط 5 -->
+                      <rect x="25" y="41" width="28" height="2" rx="1" ry="1" />
+
+                      <!-- براکت ها -->
+                      <rect x="23" y="25" width="1" height="18" rx="0.5" ry="0.5" />
+                      <rect x="55" y="25" width="1" height="18" rx="0.5" ry="0.5" />
+
+                      <!-- نقطه‌های کدنویسی -->
+                      <circle cx="28" cy="27" r="0.7" fill="var(--accent)" />
+                      <circle cx="28" cy="31" r="0.7" fill="var(--accent)" />
+                      <circle cx="28" cy="35" r="0.7" fill="var(--accent)" />
+                      <circle cx="28" cy="39" r="0.7" fill="var(--accent)" />
+                      <circle cx="28" cy="43" r="0.7" fill="var(--accent)" />
+                    </g>
+                  </g>
+
+                  <!-- کیبورد (اختیاری) -->
+                  <rect class="gradient-fill" x="25" y="65" width="35" height="8" rx="2" ry="2" opacity="0.7" />
+
+                  <!-- دکمه پاور -->
+                  <circle class="gradient-fill" cx="70" cy="20" r="2" />
+
+                  <!-- پورت‌ها -->
+                  <g opacity="0.8">
+                    <rect x="18" y="58" width="3" height="8" rx="1" ry="1" class="gradient-fill" />
+                    <rect x="23" y="58" width="3" height="8" rx="1" ry="1" class="gradient-fill" />
+                    <rect x="59" y="58" width="3" height="8" rx="1" ry="1" class="gradient-fill" />
+                    <rect x="64" y="58" width="3" height="8" rx="1" ry="1" class="gradient-fill" />
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <div class="logo__caption">
+              <p>محمد وحدانی</p>
+            </div>
+          </div>
+          <div class="avatar__image">
+            <img src="img/avatars/1769841485966.jpg" alt="محمد وحدانی - برنامه‌نویس وب و طراح رابط کاربری">
+          </div>
+        </div>
+        <!-- data caption #1 -->
+        <div class="avatar__block">
+          <h6>
+            <small class="top">تخصص:</small>
+            برنامه‌نویس وب<br>توسعه‌دهنده فرانت‌اند
+          </h6>
+        </div>
+        <!-- data caption #2 -->
+        <div class="avatar__block">
+          <h6>
+            <small class="top">مستقر در:</small>
+            بجنورد، ایران
+          </h6>
+        </div>
+        <!-- socials and CTA button -->
+        <div class="avatar__block">
+          <div class="avatar__socials">
+            <ul class="socials-square d-flex justify-content-center">
+              <!-- 
+              <li class="socials-square__item">
+                <a class="socials-square__link btn" href="https://dribbble.com/" target="_blank"><i
+                    class="ph-bold ph-dribbble-logo"></i></a>
+              </li>
+              <li class="socials-square__item">
+                <a class="socials-square__link btn" href="https://www.behance.net/" target="_blank"><i
+                    class="ph-bold ph-behance-logo"></i></a>
+              </li>
+              -->
+              <li class="socials-square__item">
+                <a class="socials-square__link btn" href="https://www.instagram.com/m.vahdani1385" target="_blank"><i
+                    class="ph-bold ph-instagram-logo"></i></a>
+              </li>
+              <li class="socials-square__item">
+                <a class="socials-square__link btn" href="https://t.me/m_vahdani1385" target="_blank"><i
+                    class="ph-bold ph-telegram-logo"></i></a>
+              </li>
+              <li class="socials-square__item">
+                <a class="socials-square__link btn" href="https://wa.me/989932169402" target="_blank"><i
+                    class="ph-bold ph-whatsapp-logo"></i></a>
+              </li>
+              <!-- 
+              <li class="socials-square__item">
+                <a class="socials-square__link btn" href="https://www.pinterest.com/" target="_blank"><i
+                    class="ph-bold ph-pinterest-logo"></i></a>
+              </li>
+              -->
+            </ul>
+          </div>
+          <div class="avatar__btnholder">
+            <a class="btn btn-default btn-fullwidth btn-hover btn-hover-accent" href="#contact" target="_blank">
+              <span class="btn-caption">بیایید با هم کار کنیم!</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Avatar Side Block End -->
+
+    <!-- Page Content Start -->
+    <div id="content" class="content" style="margin-right: 20%;">
+      <div class="content__wrapper">
+
+        <!-- Intro Section Start -->
+        <section id="home" class="main intro">
+
+          <!-- Headline Start -->
+          <div id="headline" class="headline d-flex align-items-start flex-column" data-speed="1">
+            <p class="headline__subtitle animate-headline">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13"
+                fill="currentColor">
+                <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8 0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+              </svg>
+              <span>بیایید آشنا شویم!</span>
+            </p>
+            <h1 class="headline__title animate-headline">من محمد وحدانی هستم<br>برنامه‌نویس وب و طراح رابط کاربری.</h1>
+            <div class="headline__btnholder d-flex flex-column flex-sm-row">
+              <a class="btn mobile-vertical btn-default btn-hover btn-hover-accent-mobile animate-headline"
+                href="#portfolio">
+                <span class="btn-caption">کارهای من</span>
+                <i class="ph-bold ph-squares-four"></i>
+              </a>
+              <a class="btn mobile-vertical btn-default btn-hover btn-hover-outline-mobile animate-headline" href="#0">
+                <span class="btn-caption">دانلود رزومه</span>
+                <i class="ph-bold ph-download-simple"></i>
+              </a>
+            </div>
+          </div>
+          <!-- Headline End -->
+
+          <!-- Scroll Button Start -->
+          <div class="rotating-btn">
+            <a href="#portfolio" class="rotating-btn__link slide-down">
+              <!-- SVG rotating text -->
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                y="0px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve"
+                class="animate-rotation" data-value="360">
+                <defs>
+                  <path id="textPath"
+                    d="M110,59.5c0,27.6-22.4,50-50,50s-50-22.4-50-50s22.4-50,50-50S110,31.9,110,59.5z" />
+                </defs>
+                <g>
+                  <use xlink:href="#textPath" fill="none"></use>
+                  <text>
+                    <!-- button text here!!! -->
+                    <textPath xlink:href="#textPath">برای اطلاعات بیشتر اسکرول کنید * برای اطلاعات بیشتر اسکرول کنید *
+                    </textPath>
+                  </text>
+                </g>
+              </svg>
+              <!-- arrow icon -->
+              <i class="ph-bold ph-arrow-down"></i>
+            </a>
+          </div>
+          <!-- Scroll Button End -->
+
+        </section>
+        <!-- Intro Section End -->
+
+        <!-- Portfolio Section Start -->
+        <section id="portfolio" class="inner inner-first portfolio">
+
+          <!-- Content Block - H2 Section Title Start -->
+          <div class="content__block section-grid-title">
+            <p class="h2__subtitle animate-in-up">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13"
+                fill="currentColor">
+                <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+              </svg>
+              <span>نمونه کارها</span>
+            </p>
+            <h2 class="h2__title animate-in-up">پروژه‌های شاخص من را ببینید</h2>
+          </div>
+          <!-- Content Block - H2 Section Title End -->
+
+          <!-- Content Block - Works Gallery Start -->
+          <div class="content__block grid-block">
+            <div class="container-fluid px-0 inner__gallery">
+              <div class="row gx-0 my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+                <!-- Works Gallery Single Item Start -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="./img/works/ajgoldshop.png"
+                    data-image="./img/works/ajgoldshop.png" class="gallery__link"
+                    itemprop="contentUrl" data-size="1400x1400">
+                    <img src="./img/works/ajgoldshop.png" class="gallery__image" itemprop="thumbnail"
+                      alt="AJ Gold Shop - فروشگاه طلای کودکان">
+                  </a>
+                  <figcaption class="gallery__descr" itemprop="caption description">
+                    <h5>AJ Gold Shop</h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <span class="rounded-tag opposite">فروشگاهی</span>
+                      <span class="rounded-tag opposite">دو زبانه</span>
+                    </div>
+                    <p class="small">طراحی وب‌سایت فروش طلای کودکان برای کشور کویت با قابلیت پرداخت ارزی و پشتیبانی از
+                      دو زبان عربی و انگلیسی</p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+                <!-- Works Gallery Single Item Start -->
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="./img/works/hominex.png"
+                    data-image="./img/works/hominex.png" class="gallery__link"
+                    itemprop="contentUrl" data-size="1400x1400">
+                    <img src="./img/works/hominex.png" class="gallery__image" itemprop="thumbnail"
+                      alt="Hominex - پلتفرم تخمین قیمت قطعات شهری">
+                  </a>
+                  <figcaption class="gallery__descr opposite" itemprop="caption description">
+                    <h5 class="opposite">پلتفرم Hominex</h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <span class="rounded-tag">استارتاپ</span>
+                      <span class="rounded-tag">هوش مصنوعی</span>
+                    </div>
+                    <p class="small">پلتفرم تخمین قیمت قطعات شهری با استفاده از هوش مصنوعی و الگوریتم‌های پیشرفته برای
+                      تحلیل داده‌های شهری</p>
+                  </figcaption>
+                </figure>
+                <!-- Works Gallery Single Item End -->
+
+                <!-- سایر پروژه‌ها کامنت شده‌اند -->
+                <!--
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="https://dummyimage.com/1400x1400/3c3c3c/636363"
+                    data-image="https://dummyimage.com/800x800/3c3c3c/636363" class="gallery__link"
+                    itemprop="contentUrl" data-size="1400x1400">
+                    <img src="https://dummyimage.com/800x800/3c3c3c/636363" class="gallery__image" itemprop="thumbnail"
+                      alt="توضیح تصویر">
+                  </a>
+                  <figcaption class="gallery__descr opposite" itemprop="caption description">
+                    <h5 class="opposite">آیکون اعلان</h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <span class="rounded-tag">تصویرسازی‌ها</span>
+                      <span class="rounded-tag">رندر سه بعدی</span>
+                    </div>
+                    <p class="small">موریس پورتیتر لوبورتیس لیگولا، کوئیس مولستی لورم اسکلریسکی یو. موربی الیپام انیم
+                      اودیو،
+                      آ مولیس ایپسوم تریستیکو یو.</p>
+                  </figcaption>
+                </figure>
+                
+                <figure class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia"
+                  itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="https://dummyimage.com/1400x1400/3c3c3c/636363"
+                    data-image="https://dummyimage.com/800x800/3c3c3c/636363" class="gallery__link"
+                    itemprop="contentUrl" data-size="1400x1400">
+                    <img src="https://dummyimage.com/800x800/3c3c3c/636363" class="gallery__image" itemprop="thumbnail"
+                      alt="توضیح تصویر">
+                  </a>
+                  <figcaption class="gallery__descr " itemprop="caption description">
+                    <h5>پنگوئن باهوش</h5>
+                    <div class="card__tags d-flex flex-wrap">
+                      <span class="rounded-tag opposite">تصویرسازی‌ها</span>
+                      <span class="rounded-tag opposite">آزمایش هوش مصنوعی</span>
+                    </div>
+                    <p class="small">موریس پورتیتر لوبورتیس لیگولا، کوئیس مولستی لورم اسکلریسکی یو. موربی الیپام انیم
+                      اودیو،
+                      آ مولیس ایپسوم تریستیکو یو.</p>
+                  </figcaption>
+                </figure>
+                -->
+
+              </div>
+            </div>
+          </div>
+          <!-- Content Block - Works Gallery End -->
+
+        </section>
+        <!-- Portfolio Section End -->
+
+        <!-- About Section Start -->
+        <section id="about" class="inner about">
+
+          <!-- Content Block - H2 Section Title Start -->
+          <div class="content__block section-grid-title">
+            <p class="h2__subtitle animate-in-up">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13"
+                fill="currentColor">
+                <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+              </svg>
+              <span>درباره من</span>
+            </p>
+            <h2 class="h2__title animate-in-up">تبدیل ایده‌ها به واقعیت دیجیتال</h2>
+          </div>
+          <!-- Content Block - H2 Section Title End -->
+
+          <!-- Content Block - Achievements Start -->
+          <div class="content__block grid-block">
+            <div class="achievements d-flex flex-column flex-md-row align-items-md-stretch">
+              <!-- achievements single item -->
+              <div class="achievements__item d-flex flex-column grid-item animate-card-3">
+                <div class="achievements__card">
+                  <p class="achievements__number">۵+</p>
+                  <p class="achievements__descr">مشتری راضی</p>
+                </div>
+              </div>
+              <!-- achievements single item -->
+              <div class="achievements__item d-flex flex-column grid-item animate-card-3">
+                <div class="achievements__card">
+                  <p class="achievements__number">۲+</p>
+                  <p class="achievements__descr">سال تجربه</p>
+                </div>
+              </div>
+              <!-- achievements single item -->
+              <div class="achievements__item d-flex flex-column grid-item animate-card-3">
+                <div class="achievements__card">
+                  <p class="achievements__number">۱۱+</p>
+                  <p class="achievements__descr">پروژه انجام شده</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Content Block - Achievements End -->
+
+          <!-- Content Block - About Me Data Start -->
+          <div class="content__block grid-block block-large">
+            <div class="container-fluid p-0">
+              <div class="row g-0 justify-content-between">
+
+                <!-- About Me Description Start -->
+                <div class="col-12 col-xl-8 grid-item about-descr">
+                  <p class="about-descr__text animate-in-up">
+                    من محمد وحدانی، متولد ۱۳۸۵ (۲۰۰۶) از بجنورد هستم. دارای مدرک دیپلم و دانشجوی رشته مهندسی کامپیوتر در
+                    دانشگاه آزاد اسلامی و همچنین دانشجوی دانشگاه فرهنگیان در مقطع دبیری کامپیوتر. از همان ابتدای مسیر
+                    تحصیلی‌ام، علاقه‌ام به دنیای برنامه‌نویسی و فناوری باعث شد به‌صورت جدی وارد حوزه توسعه وب شوم و
+                    مهارت‌هایم را به‌صورت عملی گسترش بدهم.
+                  </p>
+                  <p class="about-descr__text animate-in-up">
+                    در بخش فرانت‌اند تسلط کامل به HTML، CSS، JavaScript و فریم‌ورک‌های React و Next.js دارم و با وردپرس
+                    به‌صورت حرفه‌ای کار کرده‌ام؛ از راه‌اندازی و مدیریت سایت تا توسعه و شخصی‌سازی کامل. همچنین توانایی
+                    طراحی اولیه UI را با استفاده از Photoshop دارم و به‌طور کلی با اصول طراحی و زیبایی‌شناسی رابط کاربری
+                    آشنا هستم. در کنار این‌ها، آشنایی سطحی با بک‌اند و فریم‌ورک‌هایی مانند Django و Laravel نیز دارم.
+                  </p>
+                  <p class="about-descr__text animate-in-up">
+                    تا امروز روی چندین پروژه وردپرسی و پروژه‌های کدنویسی مختلف کار کرده‌ام و همواره تلاش کرده‌ام
+                    پروژه‌ها را با بالاترین کیفیت ممکن، استاندارد و قابل توسعه تحویل بدهم. یادگیری مداوم، دقت در جزئیات
+                    و تعهد به نتیجه‌ی نهایی، از ویژگی‌های اصلی من در مسیر حرفه‌ای‌ام هستند.
+                  </p>
+                  <div class="btn-group about-descr__btnholder animate-in-up">
+                    <a class="btn mobile-vertical btn-default btn-hover btn-hover-accent" href="#0">
+                      <span class="btn-caption">دانلود رزومه</span>
+                      <i class="ph-bold ph-download-simple"></i>
+                    </a>
+                  </div>
+                </div>
+                <!-- About Me Description End -->
+
+                <!-- About Me Information Start -->
+                <div class="col-12 col-xl-4 grid-item about-info">
+                  <div class="about-info__item animate-in-up">
+                    <h6>
+                      <small class="top">نام</small>
+                      محمد وحدانی
+                    </h6>
+                  </div>
+                  <div class="about-info__item animate-in-up">
+                    <h6>
+                      <small class="top">تلفن</small>
+                      <a class="text-link-bold" href="tel:+989932169402">۰۹۹۳۲۱۶۹۴۰۲</a>
+                    </h6>
+                  </div>
+                  <div class="about-info__item animate-in-up">
+                    <h6>
+                      <small class="top">ایمیل</small>
+                      <a class="text-link-bold"
+                        href="mailto:mohammad.vahdani1385@gmail.com?subject=پیام%20از%20سایت%20شما">mohammad.vahdani1385@gmail.com</a>
+                    </h6>
+                  </div>
+                  <div class="about-info__item animate-in-up">
+                    <h6>
+                      <small class="top">موقعیت</small>
+                      <a class="text-link-bold" href="https://maps.google.com/?q=بجنورد، ایران" target="_blank">بجنورد،
+                        ایران</a>
+                    </h6>
+                  </div>
+                </div>
+                <!-- About Me Information End -->
+
+              </div>
+            </div>
+          </div>
+          <!-- Content Block - About Me Data End -->
+
+          <!-- Content Block - Services Start -->
+          <div class="content__block grid-block">
+            <div class="container-fluid p-0">
+              <div class="row g-0 align-items-stretch cards">
+                <!-- services cards grid single item -->
+                <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                  <div class="cards__card d-flex flex-column">
+                    <div class="cards__descr">
+                      <h4 class="cards__title animate-in-up">توسعه  فرانت‌اند</h4>
+                      <div class="cards__tags d-flex flex-wrap animate-in-up">
+                        <span class="rounded-tag tag-outline">React</span>
+                        <span class="rounded-tag tag-outline">Next.js</span>
+                        <span class="rounded-tag tag-outline">API Routes</span>
+                      </div>
+                      <p class="small cards__text animate-in-up">توسده اپلیکیشن‌های مدرن وب با استفاده از تکنولوژی‌های
+                        روز دنیا مانند React و Next.js</p>
+                    </div>
+                    <div class="cards__image d-flex animate-in-up">
+                      <img src="./img/services/frontend.png" alt="توسعه فرانت‌اند">
+                    </div>
+                  </div>
+                </div>
+                <!-- services grid cards single item -->
+                <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                  <div class="cards__card d-flex flex-column">
+                    <div class="cards__descr">
+                      <h4 class="cards__title animate-in-up">طراحی رابط کاربری</h4>
+                      <div class="cards__tags d-flex flex-wrap animate-in-up">
+                        <span class="rounded-tag tag-outline">Photoshop</span>
+                        <span class="rounded-tag tag-outline">Figma</span>
+                        <span class="rounded-tag tag-outline">UI/UX</span>
+                      </div>
+                      <p class="small cards__text animate-in-up">طراحی رابط کاربری زیبا و کاربرپسند با توجه به اصول
+                        UI/UX و استفاده از ابزارهای حرفه‌ای</p>
+                    </div>
+                    <div class="cards__image d-flex animate-in-up">
+                      <img src="./img/services/ui-ux.jpg" alt="طراحی رابط کاربری">
+                    </div>
+                  </div>
+                </div>
+                <!-- services grid cards single item -->
+                <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                  <div class="cards__card d-flex flex-column">
+                    <div class="cards__descr">
+                      <h4 class="cards__title animate-in-up">توسعه بک‌اند</h4>
+                      <div class="cards__tags d-flex flex-wrap animate-in-up">
+                        <span class="rounded-tag tag-outline">Laravel</span>
+                        <span class="rounded-tag tag-outline">Django</span>
+                        <span class="rounded-tag tag-outline">PHP</span>
+                      </div>
+                      <p class="small cards__text animate-in-up">همکاری با تیم‌های متخصص برای توسعه سمت سرور پروژه‌های
+                        بزرگ و پیچیده</p>
+                    </div>
+                    <div class="cards__image d-flex">
+                      <img src="./img/services/backend.png" alt="توسعه بک‌اند">
+                    </div>
+                  </div>
+                </div>
+                <!-- services grid cards single item -->
+                <div class="col-12 col-md-6 cards__item grid-item animate-card-2">
+                  <div class="cards__card d-flex flex-column">
+                    <div class="cards__descr">
+                      <h4 class="cards__title animate-in-up">مشاوره توسعه نرم‌افزار</h4>
+                      <div class="cards__tags d-flex flex-wrap animate-in-up">
+                        <span class="rounded-tag tag-outline">مشاوره</span>
+                        <span class="rounded-tag tag-outline">تحلیل</span>
+                        <span class="rounded-tag tag-outline">راه‌حل</span>
+                      </div>
+                      <p class="small cards__text animate-in-up">ارائه مشاوره تخصصی در زمینه توسعه نرم‌افزار بر اساس
+                        تجربیات عملی و مطالعات تخصصی</p>
+                    </div>
+                    <div class="cards__image d-flex animate-in-up">
+                      <img src="./img/services/Counseling.jpg" alt="مشاوره توسعه نرم‌افزار">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- Content Block - Services End -->
+
+        </section>
+        <!-- About Section End -->
+
+        <!-- Resume Section Start -->
+        <section id="resume" class="inner resume">
+
+          <!-- Content Block - H2 Section Title Start -->
+          <div class="content__block block-large">
+            <p class="h2__subtitle animate-in-up">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13"
+                fill="currentColor">
+                <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+              </svg>
+              <span>رزومه</span>
+            </p>
+            <h2 class="h2__title animate-in-up">تحصیلات و تجربه عملی</h2>
+            <p class="h2__text animate-in-up">
+              من محمد وحدانی، با بیش از ۲ سال تجربه در حوزه توسعه وب و برنامه‌نویسی، همواره تلاش کرده‌ام با یادگیری
+              مداوم و کار بر روی پروژه‌های متنوع، مهارت‌هایم را ارتقا دهم. تعهد به کیفیت و توجه به جزئیات از اصول کاری
+              من است.
+            </p>
+          </div>
+          <!-- Content Block - H2 Section Title End -->
+
+          <!-- Content Block - Education Start -->
+          <div class="content__block block-large">
+
+            <!-- H3 Block Start -->
+            <div class="section-h3">
+              <h3 class="h3__title animate-in-up">تحصیلات من</h3>
+            </div>
+            <!-- H3 Block End -->
+
+            <!-- Education Lines Start -->
+            <div class="container-fluid p-0 resume-lines">
+              <!-- education single item -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">۲۰۲۰ - ۲۰۲۴</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">دیپلم علوم انسانی</h5>
+                  <p class="resume-lines__source animate-in-up">دبیرستان</p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">مدرک دیپلم انسانی در مقاطع تحصیلی ۳-۳-۶</p>
+                </div>
+              </div>
+              <!-- education single item -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">۲۰۲۳ - اکنون</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">کارشناسی مهندسی کامپیوتر</h5>
+                  <p class="resume-lines__source animate-in-up">دانشگاه آزاد اسلامی</p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">دانشجوی رشته مهندسی کامپیوتر</p>
+                </div>
+              </div>
+              <!-- education single item -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">۲۰۲۴ - اکنون</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">کارشناسی دبیری کامپیوتر</h5>
+                  <p class="resume-lines__source animate-in-up">دانشگاه فرهنگیان</p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">دانشجوی رشته دبیری کامپیوتر دانشگاه فرهنگیان (تربیت
+                    معلم)</p>
+                </div>
+              </div>
+            </div>
+            <!-- Education Lines End -->
+
+          </div>
+          <!-- Content Block - Education End -->
+
+          <!-- Content Block - Experience Start -->
+          <div class="content__block block-large">
+
+            <!-- H3 Block Start -->
+            <div class="section-h3">
+              <h3 class="h3__title animate-in-up">تجربه کاری</h3>
+            </div>
+            <!-- H3 Block End -->
+
+            <!-- Experience Lines Start -->
+            <div class="container-fluid p-0 resume-lines">
+              <!-- experience single item -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">۲۰۲۱ - ۲۰۲۳</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">طراحی و پشتیبانی سایت</h5>
+                  <p class="resume-lines__source animate-in-up">رادوین پارت</p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">مدیر بخش فروش دیجیتال و طراحی و پشتیبانی وب سایت
+                    فروشگاه رادوین پارت</p>
+                </div>
+              </div>
+              <!-- experience single item -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">۲۰۲۳ - ۲۰۲۵</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">مدیر توسعه وب سایت</h5>
+                  <p class="resume-lines__source animate-in-up">شرکت هومینکس</p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">نظارت و توسعه وب سایت شرکت و انجام کارهای دیجیتالی
+                    مرتبط با وب سایت</p>
+                </div>
+              </div>
+              <!-- experience single item -->
+              <div class="row g-0 resume-lines__item animate-in-up">
+                <div class="col-12 col-md-2">
+                  <span class="resume-lines__date animate-in-up">۲۰۲۲ - اکنون</span>
+                </div>
+                <div class="col-12 col-md-5">
+                  <h5 class="resume-lines__title animate-in-up">فریلنسر توسعه وب</h5>
+                  <p class="resume-lines__source animate-in-up">فعالیت آزاد</p>
+                </div>
+                <div class="col-12 col-md-5">
+                  <p class="small resume-lines__descr animate-in-up">توسعه‌دهنده فرانت‌اند و طراح رابط کاربری به صورت
+                    فریلنسری روی پروژه‌های مختلف</p>
+                </div>
+              </div>
+            </div>
+            <!-- Experience Lines End -->
+
+          </div>
+          <!-- Content Block - Experience End -->
+
+          <!-- Content Block - H3 Block Start -->
+          <div class="content__block">
+            <div class="section-h3 section-h3-grid">
+              <h3 class="h3__title animate-in-up">ابزارها و تکنولوژی‌های مورد استفاده</h3>
+            </div>
+          </div>
+          <!-- Content Block - H3 Block End -->
+
+          <!-- Content Block - Tools List Start -->
+          <div class="content__block grid-block block-large">
+            <!-- Tools List Start -->
+            <div class="tools-cards d-flex justify-content-start flex-wrap">
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-html.svg" alt="HTML">
+                  <h6 class="tools-cards__caption animate-in-up">HTML5</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-css.svg" alt="CSS">
+                  <h6 class="tools-cards__caption animate-in-up">CSS3</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/js.webp" alt="JavaScript">
+                  <h6 class="tools-cards__caption animate-in-up">JavaScript</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/react.png" alt="React">
+                  <h6 class="tools-cards__caption animate-in-up">React</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/nextJs.png" alt="Next.js">
+                  <h6 class="tools-cards__caption animate-in-up">Next.js</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-photoshop.png" alt="Photoshop">
+                  <h6 class="tools-cards__caption animate-in-up">Photoshop</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/icon-figma.png" alt="Figma">
+                  <h6 class="tools-cards__caption animate-in-up">Figma</h6>
+                </div>
+              </div>
+              <!-- tools simgle item -->
+              <div class="tools-cards__item d-flex grid-item-s animate-card-5">
+                <div class="tools-cards__card">
+                  <img class="tools-cards__icon animate-in-up" src="img/icons/vsCode.png" alt="VS Code">
+                  <h6 class="tools-cards__caption animate-in-up">VS Code</h6>
+                </div>
+              </div>
+            </div>
+            <!-- Tools List End -->
+          </div>
+          <!-- Content Block - Tools List End -->
+
+          <!-- Content Block - H2 Block Start -->
+          <div class="content__block section-title">
+            <p class="h2__subtitle animate-in-up">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13"
+                fill="currentColor">
+                <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+              </svg>
+              <span>نظرات مشتریان</span>
+            </p>
+            <h2 class="h2__title animate-in-up">نظر مشتریان درباره من</h2>
+          </div>
+          <!-- Content Block - H2 Block End -->
+
+          <!-- Content Block - Testimonials Slider Start -->
+          <div class="content__block">
+
+            <!-- Testimonials Slider Start -->
+            <div class="testimonials-slider">
+              <!-- slider main container -->
+              <div class="swiper-testimonials">
+                <!-- additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- slides -->
+                  <div class="swiper-slide">
+                    <div class="testimonials-card animate-in-up">
+                      <div class="testimonials-card__tauthor d-flex animate-in-up gap-20" style="gap: 20px;">
+                        <div class="tauthor__avatar">
+                          <img src="./img/icons/user.png" alt="آقای مرادی">
+                        </div>
+                        <div class="tauthor__info d-flex flex-column justify-content-center">
+                          <p class="tauthor__name">آقای مرادی</p>
+                          <p class="tauthor__position">مدیر بخش دیجیتال مارکتینگ در
+                            <a href="#0" class="text-link-bold" target="_blank">آیهان</a>
+                          </p>
+                          <div class="tauthor__rating d-flex">
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="testimonials-card__descr animate-in-up">
+                        <p>ایشون بسیار با سواد و حرفه ای بودند . حتی ایرادهای دیگه ی پروژه را حل نمودند . بسیار با حوصله
+                          و مودب و وقت شناس. درسته سنشون کمه ولی اندازه یک برنامه نویس با تجربه سی ساله سواد برنامه
+                          نویسی داشتند. واقعا آدم کار درست و متخصص . پیشنهاد میکنم توی برنامه نویسی و کد نویسی روی ایشون
+                          راحت حساب باز کنید . ضرر نخواهید کرد.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonials-card  animate-in-up">
+                      <div class="testimonials-card__tauthor d-flex  animate-in-up" style="gap: 20px;">
+                        <div class="tauthor__avatar">
+                          <img src="./img/icons/nimaRashidi.avif" alt="نیما رشیدی">
+                        </div>
+                        <div class="tauthor__info d-flex flex-column justify-content-center">
+                          <p class="tauthor__name">نیما رشیدی</p>
+                          <p class="tauthor__position">مدیر عامل
+                            <a href="#0" class="text-link-bold" target="_blank">آکادمی زبان نیما رشیدی</a>
+                          </p>
+                          <div class="tauthor__rating d-flex">
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star"></i>
+                            <i class="ph-fill ph-star"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="testimonials-card__descr animate-in-up">
+                        <p>جوانی با استعداد و رفتار حرفه‌ای هستند. همکاری با ایشان تجربه‌ بسیار خوبی برای من بود و
+                          خوشحال می‌شوم در آینده دوباره با ایشان کار کنم. کیفیت کار و توجه به جزئیات از ویژگی‌های بارز
+                          ایشان است.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- navigation buttons -->
+                <div class="swiper-button-prev mxd-slider-btn-square mxd-slider-btn-square-prev animate-in-up">
+                  <a class="btn btn-square btn-square-s btn-outline slide-left" href="#0">
+                    <i class="ph-bold ph-caret-left"></i>
+                  </a>
+                </div>
+                <div class="swiper-button-next mxd-slider-btn-square mxd-slider-btn-square-next animate-in-up">
+                  <a class="btn btn-square btn-square-s btn-outline slide-right" href="#0">
+                    <i class="ph-bold ph-caret-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Testimonials Slider End -->
+
+          </div>
+          <!-- Content Block - Testimonials Slider End -->
+
+        </section>
+        <!-- Resume Section End -->
+
+        <!-- Contact Section Start -->
+        <section id="contact" class="inner contact">
+
+          <!-- Content Block - H2 Section Title Start -->
+          <div class="content__block section-title">
+            <p class="h2__subtitle  animate-in-up">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13"
+                fill="currentColor">
+                <path fill="currentColor" d="M5.6,12.6c-0.5-0.8-0.7-2.4-1.7-3.5c-1-1-2.7-1.2-3.5-1.7C-0.1,7-0.1,6,0.4,5.6c0.8-0.5,2.3-0.6,3.5-1.8
+                  C5,2.8,5.1,1.2,5.6,0.4C6-0.1,7-0.1,7.4,0.4c0.5,0.8,0.7,2.4,1.8,3.5c1.2,1.2,2.6,1.2,3.5,1.7c0.6,0.4,0.6,1.4,0,1.7
+                  C11.8,7.9,10.2,8,9.1,9.1c-1,1-1.2,2.7-1.7,3.5C7,13.1,6,13.1,5.6,12.6z" />
+              </svg>
+              <span>تماس</span>
+            </p>
+            <h2 class="h2__title  animate-in-up">بیایید با هم چیزی فوق‌العاده بسازیم!</h2>
+          </div>
+          <!-- Content Block - H2 Section Title End -->
+
+          <!-- Content Block - Contact Form Start -->
+          <div class="content__block grid-block block-grid-large">
+            <div class="form-container">
+
+              <!-- Reply Messages Start -->
+              <div class="form__reply centered text-center">
+                <i class="ph-bold ph-smiley reply__icon"></i>
+                <p class="reply__title">انجام شد!</p>
+                <span class="reply__text">ممنون از پیام شما. در اسرع وقت پاسخ خواهم داد.</span>
+              </div>
+              <!-- Reply Messages End -->
+
+              <!-- Contact Form Start -->
+              <form class="form contact-form" id="contact-form">
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="پورتفولیو محمد وحدانی">
+                <input type="hidden" name="admin_email" value="mohammad.vahdani1385@gmail.com">
+                <input type="hidden" name="form_subject" value="پیام از سایت پورتفولیو">
+                <!-- END Hidden Required Fields-->
+                <div class="container-fluid p-0">
+                  <div class="row gx-0">
+                    <div class="col-12 col-md-6 form__item animate-in-up">
+                      <input type="text" name="Name" placeholder="نام شما*" required>
+                    </div>
+                    <div class="col-12 col-md-6 form__item animate-in-up">
+                      <input type="text" name="Company" placeholder="نام شرکت">
+                    </div>
+                    <div class="col-12 col-md-6 form__item animate-in-up">
+                      <input type="email" name="E-mail" placeholder="آدرس ایمیل*" required>
+                    </div>
+                    <div class="col-12 col-md-6 form__item animate-in-up">
+                      <input type="tel" name="Phone" placeholder="شماره تلفن*" required>
+                    </div>
+                    <div class="col-12 form__item animate-in-up">
+                      <textarea name="Message" placeholder="چند کلمه*" required></textarea>
+                    </div>
+                    <div class="col-12 form__item animate-in-up">
+                      <button class="btn btn-default btn-hover btn-hover-accent" type="submit">
+                        <span class="btn-caption">ارسال پیام</span>
+                        <i class="ph-bold ph-paper-plane-tilt"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <!-- Contact Form End -->
+
+            </div>
+          </div>
+          <!-- Content Block - Contact Form End -->
+
+          <!-- Content Block - Socials Cards Start -->
+          <div class="content__block grid-block">
+            <div class="socials-cards d-flex justify-content-start flex-wrap">
+              <!-- socials item -->
+              <div class="socials-cards__item d-flex grid-item-s animate-card-5">
+                <div class="socials-cards__card">
+                  <i class="ph-bold ph-instagram-logo"></i>
+                  <a class="socials-cards__link" href="https://www.instagram.com/m.vahdani1385" target="_blank"></a>
+                </div>
+              </div>
+              <!-- socials item -->
+              <div class="socials-cards__item d-flex grid-item-s animate-card-5">
+                <div class="socials-cards__card">
+                  <i class="ph-bold ph-telegram-logo"></i>
+                  <a class="socials-cards__link" href="https://t.me/m_vahdani1385" target="_blank"></a>
+                </div>
+              </div>
+              <!-- socials item -->
+              <div class="socials-cards__item d-flex grid-item-s animate-card-5">
+                <div class="socials-cards__card">
+                  <i class="ph-bold ph-whatsapp-logo"></i>
+                  <a class="socials-cards__link" href="https://wa.me/989932169402" target="_blank"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Content Block - Socials Cards End -->
+
+          <!-- Content Block - Teaser Start -->
+          <div class="content__block">
+            <div class="teaser">
+              <p class="teaser__text animate-in-up">می‌خواهید بیشتر درباره من بدانید، درباره پروژه‌تان به من بگویید یا
+                فقط سلام کنید؟
+                <a class="text-link-bold"
+                  href="mailto:mohammad.vahdani1385@gmail.com?subject=پیام%20از%20سایت%20شما">پیامی برایم
+                  بفرستید</a>
+                و من در اسرع وقت پاسخ خواهم داد.
+              </p>
+            </div>
+          </div>
+          <!-- Content Block - Teaser End -->
+
+          <!-- Content Block - Contact Data Start -->
+          <div class="content__block">
+            <div class="container-fluid p-0 contact-lines animate-in-up">
+              <div class="row g-0 contact-lines__item">
+                <!-- data item -->
+                <div class="col-12 col-md-4 contact-lines__data">
+                  <p class="contact-lines__title animate-in-up">موقعیت</p>
+                  <p class="contact-lines__text animate-in-up">
+                    <a class="text-link-bold" href="https://maps.google.com/?q=بجنورد، ایران" target="_blank">بجنورد،
+                      ایران</a>
+                  </p>
+                </div>
+                <!-- data item -->
+                <div class="col-12 col-md-4 contact-lines__data">
+                  <p class="contact-lines__title animate-in-up">تلفن</p>
+                  <p class="contact-lines__text animate-in-up">
+                    <a class="text-link-bold" href="tel:+989932169402">۰۹۹۳۲۱۶۹۴۰۲</a>
+                  </p>
+                </div>
+                <!-- data item -->
+                <div class="col-12 col-md-4 contact-lines__data">
+                  <p class="contact-lines__title animate-in-up">ایمیل</p>
+                  <p class="contact-lines__text animate-in-up">
+                    <a class="text-link-bold"
+                      href="mailto:mohammad.vahdani1385@gmail.com?subject=پیام%20از%20سایت%20شما">mohammad.vahdani1385@gmail.com</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Content Block - Contact Data End -->
+
+        </section>
+        <!-- Contact Section End -->
+
+      </div>
+    </div>
+    <!-- Page Content End -->
+
+  </div>
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+      It's a separate element, as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+      <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close link-s" title="بستن (Esc)"></button>
+
+          <button class="pswp__button pswp__button--share link-s" title="اشتراک‌گذاری"></button>
+
+          <button class="pswp__button pswp__button--fs link-s" title="تغییر حالت تمام صفحه"></button>
+
+          <button class="pswp__button pswp__button--zoom link-s" title="بزرگنمایی/کوچکنمایی"></button>
+
+          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader-active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left link-s" title="قبلی (فلش چپ)"></button>
+
+        <button class="pswp__button pswp__button--arrow--right link-s" title="بعدی (فلش راست)"></button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Load Scripts Start -->
+  <script src="js/libs.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/gallery-init.js"></script>
+  <!-- Load Scripts End -->
+
+</body>
+
+</html>
